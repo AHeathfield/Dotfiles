@@ -77,8 +77,9 @@ export PATH="$HOME/.local/share/nvim/mason/bin:$PATH"
 # Path to OpenJDK
 export JAVA_HOME=$(/usr/libexec/java_home -v 21.0.4)
 export PATH=$JAVA_HOME/bin:$PATH
-e
 
+# AeroSpace
+export PATH="/Applications/AeroSpace-v0.21.3-Beta/bin:$PATH"
 alias aerospace-on='open -a AeroSpace'
 alias aerospace-off='killall AeroSpace'xport PATH="/Applications/AeroSpace-v0.21.3-Beta/bin:$PATH"
 

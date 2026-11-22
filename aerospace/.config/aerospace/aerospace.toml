@@ -88,6 +88,10 @@ gaps.outer.right =      16
 if.app-id = 'org.godotengine.godot'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-id = 'com.apple.finder'
+run = 'move-node-to-workspace F'
+
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 # 'main' binding mode must be always presented
@@ -124,11 +128,13 @@ run = 'layout floating'
     alt-c = 'workspace C'
     alt-d = 'workspace D'
     alt-e = 'workspace E'
+    alt-f = 'workspace F'
     alt-shift-a = ['move-node-to-workspace A', 'workspace A']
     alt-shift-b = ['move-node-to-workspace B', 'workspace B']
     alt-shift-c = ['move-node-to-workspace C', 'workspace C']
     alt-shift-d = ['move-node-to-workspace D', 'workspace D']
     alt-shift-e = ['move-node-to-workspace E', 'workspace E']
+    alt-shift-f = ['move-node-to-workspace F', 'workspace F']
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
     alt-slash = 'layout tiles horizontal vertical'
@@ -240,6 +246,7 @@ B = 'LG FULL HD'
 C = 'LG FULL HD'
 D = 'LG FULL HD'
 E = 'LG FULL HD'
+F = 'main'
 
 # 'service' binding mode declaration.
 # NOTE: This mode is activated by pressing 'alt-shift-semicolon'. It contains less common commands.
